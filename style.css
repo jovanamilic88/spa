@@ -1,0 +1,187 @@
+html{
+	font-family: "El Messiri";
+	color: white;
+}
+.prviContent {
+	font-family: "El Messiri";
+	background-color: #d9f9e4;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+	
+.fa.fa-facebook {
+	color: black;
+	padding-left: 20px;
+}
+.fa.fa-envelope{
+	color: black;
+	padding-left: 20px;
+}
+
+.fa.fa-phone {
+	color: black;
+	padding-left: 20px;
+}
+.navbar.navbar-dark {
+	padding: 10px;
+	font-family: "El Messiri",sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+}
+a.nav-link {
+	color: white !important;
+}
+.nav-item {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a.navbar-brand {
+	font-size: 2rem;
+}
+
+.carousel-caption {
+height: 700px;
+width: 100%;
+text-align: left;
+padding-top: 300px;
+padding-right: 500px;
+font-family: "El Messiri";
+}
+.over-layer{
+	position: absolute;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/simple.png);
+    z-index: 1000;
+    opacity: 0.2;
+}
+
+a.carousel-control-prev {
+	position: absolute !important;
+	overflow: inherit !important;
+	z-index: 2000;
+}
+
+.carousel-caption p {
+	color: black;
+	font-size: 2.5em;
+	text-shadow: 2px 1px #1d211e;
+
+	
+}
+.carousel-caption.text-center h1 {
+	color:#d9f9e4;
+	text-shadow:2px 3px #1d211e;
+	font-family: "El Messiri";
+	font-size: 7em;
+	
+}
+.slajder {
+	margin: 0;
+	padding: 0;
+}
+
+.vrstemasaze.container p {
+font-family: "El Messiri";	
+padding-top: 20px;
+background: #f4fff8;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.img-circle {
+
+	width: 200px;
+	height: 350px;
+	border-radius: 50%;
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+.terapeut {
+	font-family: "El Messiri";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;	
+}
+
+h2.animacija.fadeIn.delay-1s {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-size: 3rem;
+	font-family: "El Messiri";
+	vertical-align: center;
+
+}
+
+.zeleni3 {
+	
+	height: 70px;
+	width: 90px;
+	padding-top: 0;
+	border: none;
+	display: block;
+}
+
+.row.hm {
+	text-align: center;
+	;
+}
+.bg-success {
+	background-color: #f4fff8!important;
+}
+
+.figure-caption {
+	font-size: 90%;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.img-thumbnail {
+	padding: .5rem;
+	border: 2px solid #d9f9e4;
+	border-radius: 0;
+	background-color: #d9f9e4;
+	width: 260px!important;
+	height: 190px;
+}
+.parent-div {
+	background-image: url(img/pozadina.jpg);
+	background-size: 100% 700px;
+}
+.child-div {
+	background-color: #f4fff8;
+	opacity: 0.7;
+}
+.child-div h2 {
+	color: black;
+	font-family: El Messiri,monospace;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 3em;
+	padding-left: 20px;
+}
+.btn-success {
+	margin-left: 500px;
+	margin-top: 50px
+	padding-top: 10px;
+}
+.tri-kolone img {
+	width: 100%;
+	height: 400px;
+	padding: 0 !important;
+	border: none;
+	margin-left: -15px;
+	margin: 0 !important;
+}
+
+.child1 {
+	background-color: #f4fff8;
+}
+
+.disabled{
+	visibility: hidden;
+}

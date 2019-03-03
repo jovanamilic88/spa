@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+,
+.carousel-caption{
+	background-color: #FF1493;
+	opacity: 0.3;
+}
