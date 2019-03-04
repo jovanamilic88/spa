@@ -49,6 +49,13 @@ padding-top: 300px;
 padding-right: 500px;
 font-family: "El Messiri";
 }
+h2.animacija{
+	text-align: center;
+}
+h1{
+	
+	text-align: center;
+}
 .over-layer{
 	position: absolute;
     width: 100%;
@@ -185,3 +192,4 @@ h2.animacija.fadeIn.delay-1s {
 .disabled{
 	visibility: hidden;
 }
+@media(max-width = 512)
