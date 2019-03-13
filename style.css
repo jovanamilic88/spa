@@ -40,20 +40,20 @@ a.nav-link {
 a.navbar-brand {
 	font-size: 2rem;
 }
+.card-body p{
+	text-align: center;
+}
 
 .carousel-caption {
-height: 700px;
-width: 100%;
-text-align: left;
+text-align: center;
 padding-top: 300px;
-padding-right: 500px;
 font-family: "El Messiri";
 }
 h2.animacija{
 	text-align: center;
 }
 h1{
-	
+
 	text-align: center;
 }
 .over-layer{
@@ -63,9 +63,15 @@ h1{
     background-image: url(img/simple.png);
     z-index: 1000;
     opacity: 0.2;
+    text-align: center;
 }
 
 a.carousel-control-prev {
+	position: absolute !important;
+	overflow: inherit !important;
+	z-index: 2000;
+}
+a.carousel-control-next {
 	position: absolute !important;
 	overflow: inherit !important;
 	z-index: 2000;
@@ -75,20 +81,25 @@ a.carousel-control-prev {
 	color: black;
 	font-size: 2.5em;
 	text-shadow: 2px 1px #1d211e;
+	text-align: center;
 
 	
 }
-.carousel-caption.text-center h1 {
+.text-sm-center.card-body h1 {
 	color:#d9f9e4;
 	text-shadow:2px 3px #1d211e;
 	font-family: "El Messiri";
 	font-size: 7em;
+	text-align: center;
 	
 }
 .slajder {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
+
+
 
 .vrstemasaze.container p {
 font-family: "El Messiri";	
@@ -129,8 +140,6 @@ h2.animacija.fadeIn.delay-1s {
 	height: 70px;
 	width: 90px;
 	padding-top: 0;
-	border: none;
-	display: block;
 }
 
 .row.hm {
@@ -193,3 +202,15 @@ h2.animacija.fadeIn.delay-1s {
 	visibility: hidden;
 }
 @media(max-width = 512)
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}       
